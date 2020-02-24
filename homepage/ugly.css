@@ -1,0 +1,85 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* text */
+.title {
+    height: 12em;
+    background: url("ugly-background.png") center center no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 7em;
+    background: -webkit-linear-gradient(rgb(251, 255, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    color: rgb(0, 255, 242);
+}
+
+.profile p {
+    color: darkblue;
+}
+
+.time p {
+    color: crimson;
+}
+.event  p {
+    color: darkgoldenrod;
+}
+
+.offer {
+    color: darkviolet;
+}
+
+.sidebar p {
+    color: tomato;
+}
+
+/* div */
+.info {
+    height: 200px;
+    position: relative;
+}
+.profile {
+    margin-right: 200px;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.photo img {
+    max-height: 100%;
+}
+
+.time {
+    position: absolute;
+    width: 20em;
+}
+.event {
+    margin-left: 20em;
+}
+
+.content {
+    position: relative;
+}
+.main {
+    margin-right: 15em;
+}
+.sidebar {
+    background: rgb(255, 196, 0);
+    width: 12em;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}

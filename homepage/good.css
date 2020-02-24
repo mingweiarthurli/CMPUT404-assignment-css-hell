@@ -1,0 +1,77 @@
+body {
+    background-color: #363B40;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* text */
+.title {
+    height: 14em;
+    line-height: 14em;
+    text-align: center;
+    background: url("good-background.jpg") center center no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-size: 7em;
+    background: -webkit-linear-gradient(rgb(255, 255, 233), rgb(255, 251, 188));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: larger;
+}
+
+/* div */
+.body {
+    top: 0;
+    width: 60%;
+    margin: auto;
+    background-image: url("wood.jpg");
+}
+
+.info {
+    height: 200px;
+    position: relative;
+}
+.profile {
+    margin-right: 200px;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.photo img {
+    max-height: 100%;
+}
+
+.time {
+    position: absolute;
+    width: 18em;
+}
+.event {
+    margin-left: 18em;
+}
+
+.content {
+    /* margin: 1em 1em 1em 1em; */
+    padding: 1em;
+    position: relative;
+    background-color: white;
+}
+.main {
+    margin-right: 15em;
+}
+.sidebar {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 12em;
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    padding: 1em;
+}

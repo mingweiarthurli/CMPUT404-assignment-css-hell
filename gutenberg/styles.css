@@ -1,0 +1,84 @@
+/* text */
+pre {
+    text-align: center;
+}
+
+body {
+    background-color: #F4ECD0;
+    color: #5B4636;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-family: Georgia, serif; 
+}
+
+h1, h2, h3{
+    color: #32343F;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* figure caption */
+h3 i {
+    color: #32343F;
+    text-align: center;
+    font-size: small;
+    font-style:italic;
+}
+
+p {
+    font-size: large;
+}
+
+/* contents block */
+blockquote {
+    text-align: center;
+}
+/* contents title */
+.toc big b {
+    color: #32343F;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* image */
+.fig {
+    margin: 0 auto;
+}
+
+.figcenter img{
+    display: block;
+    margin: auto;
+}
+
+.figleft {
+    height: 500px;
+    float: left;
+    clear: left;
+    margin: 1em 2em 1em;
+}
+.figleft img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.figright {
+    height: 500px;
+    float: right;
+    clear: right;
+    margin: 1em 2em 1em;
+}
+.figright img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* content divider */
+hr {
+    margin: 2em auto 2em;
+    clear: both;
+}
