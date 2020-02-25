@@ -25,7 +25,7 @@ Gutenberg CSS Modification
 ==========================
 
 - I changed the background and font color to some more pleasuring colors and enlarged the font to a more user-friendly size.
-- I changed the article body font to a serif font which is easier to read.
+- I changed the font to a serif font which is easier to read except the book information part.
 - I setted different color from the article body to the headers and the image captions.
 - I setted the image caption in the center of the screen.
 - I setted the contents of the book aligning to the center.
